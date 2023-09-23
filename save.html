@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    
+<link rel="stylesheet" type="text/css" href="css/save.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+
+<script src="/js/map.js"></script>
+
+<style>
+    
+    #map-container {
+        text-align: center;
+        display: none; 
+    }
+    iframe {
+        border: 1px solid black;
+        display: inline-block;
+    }
+    
+    body {
+        background-image: url('/img/mapbg.png'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+</style>
+</style>
+</head>
+<body>>
+
+   
+
+    <center><h1>Geographic Information System</h1></center>
+    <div style="text-align: center;">
+    <label for="disasters">Select a Disaster:</label>
+    <select id="disasters" name="disasters">
+        <option value="earthquake">Earthquake</option>
+        <option value="cyclone">Cyclone</option>
+        <option value="flood">Flood</option>
+    </select>
+    
+    <label for="locations">Choose a Location:</label>
+    <select id="locations" name="locations">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="kolkata">Kolkata</option>
+        <option value="chennai">Chennai</option>
+        <!-- Add more locations as needed -->
+    </select>
+    </div>
+    <div style="text-align: center;">
+    <button type="submit">Report</button>
+    </div>
+    <div id="map-container">
+        <iframe width="1200" height="1000" src="" id="map-iframe"></iframe>
+        <br/>
+        <small><a href="" id="view-larger-map">View Larger Map</a></small>
+    </div>
+    <br></br>
+    <div id="map"></div>
+    <div style="text-align: center;">
+    <iframe width="1200" height="1000" src="https://www.openstreetmap.org/export/embed.html?bbox=50.31738281250001%2C7.4506050927852225%2C106.83105468750001%2C35.102743333937646&amp;layer=mapnik&amp;marker=21.943963053011785%2C78.57421875" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=21.944&amp;mlon=78.574#map=5/21.944/78.574">View Larger Map</a></small>
+    </div>
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siq690a9f7a8e26e023807fcd05f6dd3871a83077d734e817c57925eaea6e055d99", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./gis.html">GIS</a></li>
+            <li><a href="./donation.html">Donation</a></li>
+            <li><a href="./community.html">Community</a></li>
+            <li><a href="./save.html">Save</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

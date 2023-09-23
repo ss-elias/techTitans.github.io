@@ -1,0 +1,78 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<title>Menu</title>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+	<section class="billboard light">
+		<header class="wrapper light">
+			<a href="#"><img class="logo" src="./img/logo.png" alt="log"/></a>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./gis.html">GIS</a></li>
+					<li><a href="./donation.html">Donation</a></li>
+					<li><a href="./community.html">Community</a></li>
+					<li><a href="./save.html">Save</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="caption light animated wow fadeInDown clearfix">
+			<h1>Geographic Information System</h1>
+			<div style="text-align: center;">
+				<label for="disasters">Select a Disaster:</label>
+				<select id="disasters" name="disasters">
+					<option value="earthquake">Earthquake</option>
+					<option value="cyclone">Cyclone</option>
+					<option value="flood">Flood</option>
+				</select>
+				
+				<label for="locations">Choose a Location:</label>
+				<select id="locations" name="locations">
+					<option value="delhi">Delhi</option>
+					<option value="mumbai">Mumbai</option>
+					<option value="kolkata">Kolkata</option>
+					<option value="chennai">Chennai</option>
+					<!-- Add more locations as needed -->
+				</select>
+				</div>
+				<div style="text-align: center;">
+				<button type="submit">Report</button>
+				</div>
+			<hr>
+		</div>
+		<div class="shadow"></div>
+	</section><!--  End billboard  -->
+
+<div id="canvas">
+
+<div class="zoom-icon zoom-icon-in"></div>
+
+<div class="magazine-viewport">
+	<div class="container">
+		<div class="magazine">
+			<!-- Next button -->
+			<div ignore="1" class="next-button"></div>
+			<!-- Previous button -->
+			<div ignore="1" class="previous-button"></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="js/hash.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
