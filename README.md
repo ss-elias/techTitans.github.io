@@ -7,6 +7,6 @@ In our solution an affected person can find the nearest relief centre and also r
 The govt body can also make a donation campaign and request for donation. The donations are decentralized meaning it ensures every fund and donation that is made to the Govt body is transparent and can be seen by everybody.  
 It also ensures how the funds are used and whether there were any discrepancies during the fund distribution.  
 ## Team  
-Sneha Sara Elias
-Sreni Saji
-John Philip George
+Sneha Sara Elias  
+Sreni Saji  
+John Philip George  
